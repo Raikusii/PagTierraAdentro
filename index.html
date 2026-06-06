@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Digital - Licorería</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="logo">The Secret <span>Bar</span></h1>
+        <p class="subtitle">Escanea, Elige y Disfruta</p>
+    </header>
+
+    <main class="menu-container" id="menu-productos">
+        </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="filtrarCategoria('todos', this)">
+            <span class="material-symbols-outlined">apps</span>
+            <span class="nav-text">Todos</span>
+        </button>
+        <button class="nav-item" onclick="filtrarCategoria('licores', this)">
+            <span class="material-symbols-outlined">local_bar</span>
+            <span class="nav-text">Licores</span>
+        </button>
+        <button class="nav-item" onclick="filtrarCategoria('cervezas', this)">
+            <span class="material-symbols-outlined">sports_bar</span>
+            <span class="nav-text">Cervezas</span>
+        </button>
+        <button class="nav-item" onclick="filtrarCategoria('cocteles', this)">
+            <span class="material-symbols-outlined">liquor</span>
+            <span class="nav-text">Cócteles</span>
+        </button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>

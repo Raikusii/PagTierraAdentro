@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aguardiente Antioqueño",
+        "descripcion": "Media botella 375ml - Sin azúcar",
+        "precio": "$45.000",
+        "categoria": "licores",
+        "imagen": "assets/aguardiente.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Cerveza Corona",
+        "descripcion": "Botella de vidrio 355ml",
+        "precio": "$7.500",
+        "categoria": "cervezas",
+        "imagen": "assets/corona.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Cóctel Mojito Cubano",
+        "descripcion": "Ron blanco, buena hierbabuena y limón",
+        "precio": "$18.000",
+        "categoria": "cocteles",
+        "imagen": "assets/mojito.jpg"
+    }
+]
