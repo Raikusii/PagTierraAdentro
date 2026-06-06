@@ -5,7 +5,7 @@
         "descripcion": "Media botella 375ml - Sin azúcar",
         "precio": "$45.000",
         "categoria": "licores",
-        "imagen": "assets/aguardiente.jpg"
+        "imagen": "assets/AguardienteBotella375.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "descripcion": "Botella de vidrio 355ml",
         "precio": "$7.500",
         "categoria": "cervezas",
-        "imagen": "assets/corona.jpg"
+        "imagen": "assets/Corona.jpg"
     },
     {
         "id": 3,

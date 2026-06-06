@@ -1,41 +1,110 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#0d0d0d">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>Menú Digital - Licorería</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
+
 <body>
 
+
+
     <header class="header">
-        <h1 class="logo">The Secret <span>Bar</span></h1>
-        <p class="subtitle">Escanea, Elige y Disfruta</p>
+
+        <h1 class="logo">Tierra <span>Adentro</span></h1>
+
+        <p class="subtitle">Elige y Disfruta</p>
+
     </header>
 
-    <main class="menu-container" id="menu-productos">
-        </main>
 
-    <nav class="bottom-nav">
-        <button class="nav-item active" onclick="filtrarCategoria('todos', this)">
+
+    <main class="menu-container" id="menu-productos"></main>
+
+
+
+    <div class="product-modal" id="product-modal" aria-hidden="true">
+        <div class="product-modal__backdrop" data-close></div>
+        <div class="product-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="product-modal__close" type="button" aria-label="Cerrar" data-close>
+                <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="product-modal__img-wrap">
+                <picture>
+                    <source id="modal-source-webp" type="image/webp">
+                    <img id="modal-img" class="product-modal__img" alt="" width="600" height="400" decoding="async">
+                </picture>
+            </div>
+            <div class="product-modal__info">
+                <h2 id="modal-title" class="product-modal__title"></h2>
+                <p id="modal-desc" class="product-modal__desc"></p>
+                <span id="modal-price" class="product-modal__price"></span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bottom-nav" id="bottom-nav">
+
+        <button class="nav-item active" data-categoria="todos">
+
             <span class="material-symbols-outlined">apps</span>
+
             <span class="nav-text">Todos</span>
+
         </button>
-        <button class="nav-item" onclick="filtrarCategoria('licores', this)">
+
+        <button class="nav-item" data-categoria="licores">
+
             <span class="material-symbols-outlined">local_bar</span>
+
             <span class="nav-text">Licores</span>
+
         </button>
-        <button class="nav-item" onclick="filtrarCategoria('cervezas', this)">
+
+        <button class="nav-item" data-categoria="cervezas">
+
             <span class="material-symbols-outlined">sports_bar</span>
+
             <span class="nav-text">Cervezas</span>
+
         </button>
-        <button class="nav-item" onclick="filtrarCategoria('cocteles', this)">
+
+        <button class="nav-item" data-categoria="cocteles">
+
             <span class="material-symbols-outlined">liquor</span>
+
             <span class="nav-text">Cócteles</span>
+
         </button>
+
     </nav>
 
+
+
     <script src="app.js"></script>
+
 </body>
+
 </html>
+
