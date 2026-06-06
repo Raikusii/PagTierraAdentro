@@ -23,10 +23,23 @@ body {
 
 /* Encabezado */
 .header {
+    position: relative;
     text-align: center;
     padding: 30px 20px 15px;
+    padding-top: calc(16px + env(safe-area-inset-top, 0px));
+    padding-left: calc(104px + env(safe-area-inset-left, 0px));
     background: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
     border-bottom: 1px solid #222;
+}
+
+.header-logo {
+    position: absolute;
+    top: calc(10px + env(safe-area-inset-top, 0px));
+    left: calc(12px + env(safe-area-inset-left, 0px));
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .logo {
@@ -432,6 +445,12 @@ body.modal-open {
 
     .header {
         padding: 40px 20px 20px;
+        padding-left: calc(124px + env(safe-area-inset-left, 0px));
+    }
+
+    .header-logo {
+        width: 96px;
+        height: 96px;
     }
 
     .logo {
