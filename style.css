@@ -39,12 +39,21 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: var(--font-body);
     font-weight: 400;
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: 0.01em;
+    height: 100%;
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     background-color: var(--bg-color);
     background-image:
         radial-gradient(ellipse 55% 45% at 0% 30%, rgba(160, 82, 45, 0.14) 0%, transparent 55%),
@@ -52,14 +61,15 @@ body {
         radial-gradient(ellipse 70% 40% at 50% 0%, rgba(197, 146, 69, 0.08) 0%, transparent 50%),
         radial-gradient(ellipse 40% 30% at 80% 10%, rgba(58, 85, 88, 0.1) 0%, transparent 45%);
     color: var(--text-main);
-    padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px) + 16px);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Encabezado */
+/* Encabezado — fijo arriba */
 .header {
     position: relative;
+    flex-shrink: 0;
+    z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -160,13 +170,29 @@ body {
     border-radius: 1px;
 }
 
-/* Contenedor de Productos */
+/* Contenedor de Productos — solo esta zona hace scroll */
 .menu-container {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding: 20px 16px;
+    padding-bottom: calc(24px + 70px + env(safe-area-inset-bottom, 0px));
+    width: 100%;
     transition: opacity 0.25s ease;
+}
+
+.menu-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.menu-container::-webkit-scrollbar-thumb {
+    background: rgba(197, 146, 69, 0.25);
+    border-radius: 4px;
 }
 
 .menu-container.is-loading {
@@ -465,7 +491,7 @@ body.modal-open {
 }
 
 .creator-credit__by {
-    font-weight: 300;
+    font-weight: 500;
     color: var(--bronze);
     opacity: 0.85;
 }

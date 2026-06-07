@@ -204,7 +204,7 @@ function filtrarCategoria(categoria, elementoBoton) {
         setTimeout(() => {
             mostrarProductos(productosFiltrados);
             contenedor.classList.remove("is-fading");
-            window.scrollTo({ top: 0, behavior: "smooth" });
+            contenedor.scrollTo({ top: 0, behavior: "smooth" });
         }, 150);
     });
 }

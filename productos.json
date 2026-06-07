@@ -22,5 +22,29 @@
         "precio": "$18.000",
         "categoria": "cocteles",
         "imagen": "assets/mojito.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Cóctel Mojito Cubano",
+        "descripcion": "Ron blanco, buena hierbabuena y limón",
+        "precio": "$18.000",
+        "categoria": "cocteles",
+        "imagen": "assets/mojito.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Cóctel Mojito Cubano",
+        "descripcion": "Ron blanco, buena hierbabuena y limón",
+        "precio": "$18.000",
+        "categoria": "cocteles",
+        "imagen": "assets/mojito.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Cóctel Mojito Cubano",
+        "descripcion": "Ron blanco, buena hierbabuena y limón",
+        "precio": "$18.000",
+        "categoria": "cocteles",
+        "imagen": "assets/mojito.jpg"
     }
 ]
