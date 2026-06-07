@@ -30,6 +30,8 @@
     --shadow-warm: 0 0 50px rgba(196, 122, 58, 0.06);
     --shadow-jade: 0 0 50px rgba(93, 138, 107, 0.05);
     --text-metallic: linear-gradient(180deg, #f0d9a8 0%, #c59245 35%, #8b5e28 70%, #ddb96a 100%);
+    --bottom-bar-height: 70px;
+    --list-scroll-padding: calc(var(--bottom-bar-height) + env(safe-area-inset-bottom, 0px) + 28px);
 }
 
 * {
@@ -177,13 +179,23 @@ body {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
+    scroll-padding-bottom: var(--list-scroll-padding);
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding: 20px 16px;
-    padding-bottom: calc(24px + 70px + env(safe-area-inset-bottom, 0px));
+    padding: 20px 16px 16px;
     width: 100%;
     transition: opacity 0.25s ease;
+}
+
+/* Espacio al final para que el último producto no quede detrás de la barra */
+.menu-container::after {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+    width: 100%;
+    height: var(--list-scroll-padding);
+    pointer-events: none;
 }
 
 .menu-container::-webkit-scrollbar {
@@ -688,7 +700,7 @@ body.modal-open {
 
     .menu-container {
         gap: 14px;
-        padding: 24px 20px;
+        padding: 24px 20px 16px;
         max-width: 640px;
         margin: 0 auto;
     }
@@ -717,7 +729,7 @@ body.modal-open {
 @media (min-width: 900px) {
     .menu-container {
         max-width: 720px;
-        padding: 28px 24px;
+        padding: 28px 24px 16px;
     }
 
     .header {
