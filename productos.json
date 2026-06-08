@@ -5,7 +5,7 @@
         "descripcion": "Botella de Whisky Premium",
         "precio": "$190.000",
         "categoria": "licores",
-        "imagen": "assets/default-licores.jpg"
+        "imagen": "assets/OldParrPNG.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "descripcion": "Aguardiente Antioqueño Tapa Verde (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/AguardienteBotella375Verde.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "descripcion": "Botella de Whisky Premium",
         "precio": "$240.000",
         "categoria": "licores",
-        "imagen": "assets/default-licores.jpg"
+        "imagen": "assets/BuchainsPNG.png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "descripcion": "Aguardiente Antioqueño Tapa Azul",
         "precio": "$90.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/AguardienteBotella375Azul.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "descripcion": "Cerveza Premium Nacional (Lata/Botella)",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/ClubColombiaPNG.png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "descripcion": "Cerveza Águila Original",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaAguilaNegraPNG.png"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "descripcion": "Cerveza Águila Light bien fría",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaAguilaLightPNG.png"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "descripcion": "Cerveza Costeñita en botella",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaCosteñitaPequeñaPNG.png"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "descripcion": "Cerveza Americana (Lata/Botella)",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaBudweiserLataPNG.png"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "descripcion": "Cerveza Corona presentación pequeña",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CoronitaPequeñaPNG.png"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "descripcion": "Botella de agua refrescante",
         "precio": "$3.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/BotellaAguaPersonalPNG.png"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "descripcion": "Gaseosa Coca-Cola Personal",
         "precio": "$3.500",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/CocacolaPersonalPNG.png"
     },
     {
         "id": 13,
@@ -101,7 +101,7 @@
         "descripcion": "Gaseosa / Mezclador",
         "precio": "$4.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/SquadBebidaHidratantePNG.png"
     },
     {
         "id": 14,
@@ -109,7 +109,7 @@
         "descripcion": "Pasabocas / Snacks para compartir",
         "precio": "$4.000",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/DetoditoPNG.png"
     },
     {
         "id": 15,
@@ -117,7 +117,7 @@
         "descripcion": "Mezclador Ginger Ale",
         "precio": "$3.500",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/GingerPNG.png"
     },
     {
         "id": 16,
@@ -125,7 +125,7 @@
         "descripcion": "Cerveza Costeña Bacana",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CosteñaBacanaPotePNG.png"
     },
     {
         "id": 17,
@@ -133,7 +133,7 @@
         "descripcion": "Bebida hidratante varios sabores",
         "precio": "$12.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/ElectrolitPNG.png"
     },
     {
         "id": 18,
@@ -141,7 +141,7 @@
         "descripcion": "Agua con gas / Mezclador tradicional",
         "precio": "$4.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/BretañaSodaPNG.png"
     },
     {
         "id": 19,
@@ -149,7 +149,7 @@
         "descripcion": "Bebida energizante",
         "precio": "$2.500",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/SpeedMaxLataPNG.png"
     },
     {
         "id": 20,
@@ -157,7 +157,7 @@
         "descripcion": "Cerveza Stella Artois en lata",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaStellaLataPNG.png"
     },
     {
         "id": 21,
@@ -165,7 +165,7 @@
         "descripcion": "Cerveza Corona Botella Grande",
         "precio": "$6.000",
         "categoria": "cervezas",
-        "imagen": "assets/Corona.jpg"
+        "imagen": "assets/CoronaGrandePNG.png"
     },
     {
         "id": 22,
@@ -173,7 +173,7 @@
         "descripcion": "Pasabocas de maní salado",
         "precio": "$2.500",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/ManiMotoPNG.png"
     },
     {
         "id": 23,
@@ -181,7 +181,7 @@
         "descripcion": "Té Hatsu varios sabores",
         "precio": "$5.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/HatsuSodaPNG.png"
     },
     {
         "id": 24,
@@ -189,7 +189,7 @@
         "descripcion": "Cerveza ligera / Michelob Like",
         "precio": "$6.000",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaLikePNG.png"
     },
     {
         "id": 25,
@@ -197,7 +197,7 @@
         "descripcion": "Vaso preparado con sal, limón y pimienta",
         "precio": "$2.000",
         "categoria": "cocteles",
-        "imagen": "assets/default-cocteles.jpg"
+        "imagen": "assets/MicheladaVaso.PNG"
     },
     {
         "id": 26,
@@ -205,7 +205,7 @@
         "descripcion": "Cerveza Águila Light presentación familiar",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/AguilaLightPotePNG.png"
     },
     {
         "id": 27,
@@ -213,7 +213,7 @@
         "descripcion": "Cerveza Águila Original presentación familiar",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/AguilaNegraPotePNG.png"
     },
     {
         "id": 28,
@@ -221,7 +221,7 @@
         "descripcion": "Pasabocas / Snacks",
         "precio": "$5.000",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/LosGuatesPNG.png"
     },
     {
         "id": 29,
@@ -229,7 +229,7 @@
         "descripcion": "Bebida de vodka aromatizada",
         "precio": "$12.000",
         "categoria": "licores",
-        "imagen": "assets/default-licores.jpg"
+        "imagen": "assets/SmirnofPNG.png"
     },
     {
         "id": 30,
@@ -237,7 +237,7 @@
         "descripcion": "Cerveza Premium Europea (Lata/Botella)",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaHeinekenPNG.png"
     },
     {
         "id": 31,
@@ -245,7 +245,7 @@
         "descripcion": "Cerveza Costeña Bacana en botella",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CosteñaBacanaBotellaPNG.png"
     },
     {
         "id": 32,
@@ -253,7 +253,7 @@
         "descripcion": "Cerveza Stella Artois en botella",
         "precio": "$6.000",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaStellaPNG.png"
     },
     {
         "id": 33,
@@ -261,7 +261,7 @@
         "descripcion": "Producto de inventario / Otros",
         "precio": "$2.000",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/MaizenaCajaPNG.png"
     },
     {
         "id": 34,
@@ -269,7 +269,7 @@
         "descripcion": "Artículo para fiestas / Eventos",
         "precio": "$10.000",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/EspumaFiestaPNG.png"
     },
     {
         "id": 35,
@@ -277,7 +277,7 @@
         "descripcion": "Bebida energizante / Red Bull",
         "precio": "$4.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/RedBullPNG.png"
     },
     {
         "id": 36,
@@ -285,7 +285,7 @@
         "descripcion": "Cerveza Poker en lata",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaPokerLataPNG.png"
     },
     {
         "id": 37,
@@ -293,7 +293,7 @@
         "descripcion": "Bebida hidratante",
         "precio": "$7.000",
         "categoria": "bebidas",
-        "imagen": "assets/default-bebidas.jpg"
+        "imagen": "assets/HidraplusPNG.png"
     },
     {
         "id": 38,
@@ -301,7 +301,7 @@
         "descripcion": "Aguardiente / Presentación económica",
         "precio": "$35.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/AguardienteBotella375Panchita.png"
     },
     {
         "id": 39,
@@ -309,7 +309,7 @@
         "descripcion": "Aguardiente Medellín Media Botella",
         "precio": "$35.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/RonMedellin375ML.png"
     },
     {
         "id": 40,
@@ -317,7 +317,7 @@
         "descripcion": "Aguardiente Medellín Botella Completa",
         "precio": "$65.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/RonMedellin750ML.png"
     },
     {
         "id": 41,
@@ -325,7 +325,7 @@
         "descripcion": "Aguardiente Amarillo de Manzanares",
         "precio": "$70.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/AguardienteAmarillo750ML.png"
     },
     {
         "id": 42,
@@ -333,7 +333,7 @@
         "descripcion": "Aguardiente Medellín Botella 750ml",
         "precio": "$70.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/RonMedellin750ML.png"
     },
     {
         "id": 43,
@@ -341,7 +341,7 @@
         "descripcion": "Cerveza Corona en lata",
         "precio": "$4.500",
         "categoria": "cervezas",
-        "imagen": "assets/Corona.jpg"
+        "imagen": "assets/CervezaCoronaLataPNG.png"
     },
     {
         "id": 44,
@@ -349,7 +349,7 @@
         "descripcion": "Cerveza Mexicana Especial",
         "precio": "$8.000",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaModeloPNG.png"
     },
     {
         "id": 45,
@@ -357,7 +357,7 @@
         "descripcion": "Cerveza Poker en botella",
         "precio": "$3.500",
         "categoria": "cervezas",
-        "imagen": "assets/default-cervezas.jpg"
+        "imagen": "assets/CervezaPokerBotellaPNG.png"
     },
     {
         "id": 46,
@@ -365,7 +365,7 @@
         "descripcion": "Dulces / Sucker Bom Bom Bum",
         "precio": "$1.000",
         "categoria": "otros",
-        "imagen": "assets/default-otros.jpg"
+        "imagen": "assets/BomBomPNG.png"
     },
     {
         "id": 47,
@@ -373,6 +373,6 @@
         "descripcion": "Aguardiente Amarillo Media Botella",
         "precio": "Consultar",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375.jpg"
+        "imagen": "assets/AguardienteAmarilloPequeñoPNG.png"
     }
 ]

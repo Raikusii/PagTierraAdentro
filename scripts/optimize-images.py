@@ -30,6 +30,12 @@ for entrada in archivos:
     base = entrada.stem
     img = Image.open(entrada)
     if img.mode in ("RGBA", "P"):
+        fondo = Image.new("RGB", img.size, (20, 22, 20))
+        if img.mode == "P":
+            img = img.convert("RGBA")
+        fondo.paste(img, mask=img.split()[3])
+        img = fondo
+    elif img.mode != "RGB":
         img = img.convert("RGB")
 
     thumb = img.copy()
