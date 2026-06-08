@@ -528,10 +528,19 @@ body.modal-open {
     backdrop-filter: blur(16px);
     border-top: 1px solid var(--border-subtle);
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    gap: 2px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
     z-index: 1000;
     box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.bottom-nav::-webkit-scrollbar {
+    display: none;
 }
 
 .nav-item {
@@ -542,8 +551,9 @@ body.modal-open {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
-    min-width: 0;
+    flex: 1 0 72px;
+    min-width: 72px;
+    max-width: 88px;
     height: 100%;
     cursor: pointer;
     position: relative;
@@ -572,9 +582,9 @@ body.modal-open {
 
 .nav-text {
     font-family: var(--font-body);
-    font-size: 0.58rem;
+    font-size: 0.52rem;
     font-weight: 500;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     white-space: nowrap;
     overflow: hidden;
