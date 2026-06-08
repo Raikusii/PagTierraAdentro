@@ -33,6 +33,16 @@ function conexionLenta() {
     return ["slow-2g", "2g", "3g"].includes(red.effectiveType);
 }
 
+function valorPrecio(precio) {
+    if (!precio || String(precio).toLowerCase() === "consultar") return -1;
+    const digitos = String(precio).replace(/[^0-9]/g, "");
+    return digitos ? parseInt(digitos, 10) : -1;
+}
+
+function ordenarPorPrecioMayorMenor(productos) {
+    return [...productos].sort((a, b) => valorPrecio(b.precio) - valorPrecio(a.precio));
+}
+
 function crearImagenLista(producto, indice) {
     const urls = rutasImagen(producto.imagen);
     const prioritaria = indice < 2;
@@ -129,9 +139,10 @@ function mostrarProductos(productos) {
         return;
     }
 
+    const productosOrdenados = ordenarPorPrecioMayorMenor(productos);
     const fragment = document.createDocumentFragment();
 
-    productos.forEach((producto, indice) => {
+    productosOrdenados.forEach((producto, indice) => {
         const tarjeta = document.createElement("div");
         tarjeta.classList.add("product-card");
         tarjeta.dataset.id = producto.id;
