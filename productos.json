@@ -10,7 +10,7 @@
     {
         "id": 2,
         "nombre": "ANTIOQUEÑO VERDE",
-        "descripcion": "Aguardiente Antioqueño Tapa Verde (Sin Azúcar)",
+        "descripcion": "Aguardiente Antioqueño Tetra Verde (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
         "imagen": "assets/AguardienteTETRA375Verde.png"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "nombre": "ANTIOQUEÑO AZUL",
-        "descripcion": "Aguardiente Antioqueño Tapa Azul",
+        "descripcion": "Aguardiente Antioqueño Tetra Azul (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
         "imagen": "assets/AguardienteTETRA375Azul.png"
@@ -322,7 +322,7 @@
     {
         "id": 41,
         "nombre": "AGUARD AMARILLO",
-        "descripcion": "Aguardiente Amarillo de Manzanares",
+        "descripcion": "Aguardiente Amarillo",
         "precio": "$70.000",
         "categoria": "licores",
         "imagen": "assets/AguardienteAmarillo750ML.png"
