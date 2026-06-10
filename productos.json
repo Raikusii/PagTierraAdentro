@@ -13,7 +13,7 @@
         "descripcion": "Aguardiente Antioqueño Tapa Verde (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375Verde.png"
+        "imagen": "assets/AguardienteTETRA375Verde.png"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "descripcion": "Aguardiente Antioqueño Tapa Azul",
         "precio": "$90.000",
         "categoria": "licores",
-        "imagen": "assets/AguardienteBotella375Azul.png"
+        "imagen": "assets/AguardienteTETRA375Azul.png"
     },
     {
         "id": 5,
