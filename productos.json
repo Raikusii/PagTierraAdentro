@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "nombre": "OLD PARR",
+        "nombre": "OLD PARR 750ML",
         "descripcion": "Botella de Whisky Premium",
         "precio": "$190.000",
         "categoria": "licores",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "nombre": "ANTIOQUEÑO VERDE",
+        "nombre": "ANTIOQUEÑO VERDE 1050ML",
         "descripcion": "Aguardiente Antioqueño Tetra Verde (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "nombre": "BUCHANS",
+        "nombre": "BUCHANANS MASTER 750ML",
         "descripcion": "Botella de Whisky Premium",
         "precio": "$240.000",
         "categoria": "licores",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "nombre": "ANTIOQUEÑO AZUL",
+        "nombre": "ANTIOQUEÑO AZUL 1050ML",
         "descripcion": "Aguardiente Antioqueño Tetra Azul (Sin Azúcar)",
         "precio": "$90.000",
         "categoria": "licores",
@@ -225,7 +225,7 @@
     },
     {
         "id": 29,
-        "nombre": "SMIRNOFF",
+        "nombre": "SMIRNOFF 75ML",
         "descripcion": "Bebida de vodka aromatizada",
         "precio": "$12.000",
         "categoria": "licores",
@@ -273,11 +273,11 @@
     },
     {
         "id": 35,
-        "nombre": "RED",
-        "descripcion": "Bebida energizante / Red Bull",
+        "nombre": "REDD'S",
+        "descripcion": "Bebida ",
         "precio": "$4.000",
         "categoria": "bebidas",
-        "imagen": "assets/RedBullPNG.png"
+        "imagen": "assets/REDDSPNG.png"
     },
     {
         "id": 36,
@@ -286,14 +286,6 @@
         "precio": "$3.500",
         "categoria": "cervezas",
         "imagen": "assets/CervezaPokerLataPNG.png"
-    },
-    {
-        "id": 37,
-        "nombre": "HIDRAPLUS",
-        "descripcion": "Bebida hidratante",
-        "precio": "$7.000",
-        "categoria": "bebidas",
-        "imagen": "assets/HidraplusPNG.png"
     },
     {
         "id": 38,
@@ -321,7 +313,7 @@
     },
     {
         "id": 41,
-        "nombre": "AGUARD AMARILLO",
+        "nombre": "AGUARDIENTE ANTIOQUEÑO REAL 750ML",
         "descripcion": "Aguardiente Amarillo",
         "precio": "$70.000",
         "categoria": "licores",
@@ -369,7 +361,7 @@
     },
     {
         "id": 47,
-        "nombre": "AGUARD AMARILLO PEQUEÑO",
+        "nombre": "AGUARD AMARILLO PEQUEÑO 50ML",
         "descripcion": "Aguardiente Amarillo Media Botella",
         "precio": "Consultar",
         "categoria": "licores",
