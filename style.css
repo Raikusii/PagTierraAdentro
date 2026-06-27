@@ -288,10 +288,10 @@ body {
 
 .product-title {
     font-family: var(--font-display);
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 800;
-    letter-spacing: 0.06em;
-    line-height: 1.25;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
     background: var(--text-metallic);
     -webkit-background-clip: text;
     background-clip: text;
