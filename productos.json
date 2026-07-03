@@ -115,7 +115,7 @@
         "id": 15,
         "nombre": "GINGER",
         "descripcion": "Mezclador Ginger Ale",
-        "precio": "$3.500",
+        "precio": "$4.000",
         "categoria": "bebidas",
         "imagen": "assets/GingerPNG.png"
     },
