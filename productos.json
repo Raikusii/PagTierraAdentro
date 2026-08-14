@@ -339,7 +339,7 @@
         "id": 44,
         "nombre": "CERVEZA MODELO",
         "descripcion": "Cerveza Mexicana Especial",
-        "precio": "$8.000",
+        "precio": "$10.000",
         "categoria": "cervezas",
         "imagen": "assets/CervezaModeloPNG.png"
     },
