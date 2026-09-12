@@ -91,7 +91,7 @@
         "id": 12,
         "nombre": "COCA COLA",
         "descripcion": "Gaseosa Coca-Cola Personal",
-        "precio": "$3.500",
+        "precio": "$4.000",
         "categoria": "bebidas",
         "imagen": "assets/CocacolaPersonalPNG.png"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "nombre": "SQUAD",
         "descripcion": "Gaseosa / Mezclador",
-        "precio": "$4.000",
+        "precio": "$5.000",
         "categoria": "bebidas",
         "imagen": "assets/SquadBebidaHidratantePNG.png"
     },
@@ -187,7 +187,7 @@
         "id": 24,
         "nombre": "CERVEZA LIKE",
         "descripcion": "Cerveza ligera / Michelob Like",
-        "precio": "$6.000",
+        "precio": "$7.000",
         "categoria": "cervezas",
         "imagen": "assets/CervezaLikePNG.png"
     },
@@ -251,7 +251,7 @@
         "id": 32,
         "nombre": "STELA BOTELLA",
         "descripcion": "Cerveza Stella Artois en botella",
-        "precio": "$6.000",
+        "precio": "$7.000",
         "categoria": "cervezas",
         "imagen": "assets/CervezaStellaPNG.png"
     },
