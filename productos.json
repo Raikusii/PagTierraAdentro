@@ -378,7 +378,7 @@
     {
         "id": 49,
         "nombre": "GASEOSA PEQUEÑA",
-        "descripcion": "BOTELLA PEQUEÑA DE GASEOSA",
+        "descripcion": "BOTELLA PEQUEÑA DE GASEOSA ",
         "precio": "$2.000",
         "categoria": "bebidas",
         "imagen": "assets/GaseosaPequeñaPNG.png"
