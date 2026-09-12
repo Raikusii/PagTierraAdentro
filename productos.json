@@ -366,5 +366,21 @@
         "precio": "Consultar",
         "categoria": "licores",
         "imagen": "assets/AguardienteAmarilloPequeñoPNG.png"
+    },
+    {
+        "id": 48,
+        "nombre": "AGUA PEQUEÑA",
+        "descripcion": "BOTELLA PEQUEÑA DE AGUA",
+        "precio": "$1.000",
+        "categoria": "bebidas",
+        "imagen": "assets/AguaPequeñaPNG.png"
+    },
+    {
+        "id": 49,
+        "nombre": "GASEOSA PEQUEÑA",
+        "descripcion": "BOTELLA PEQUEÑA DE GASEOSA",
+        "precio": "$2.000",
+        "categoria": "bebidas",
+        "imagen": "assets/GaseosaPequeñaPNG.png"
     }
 ]
